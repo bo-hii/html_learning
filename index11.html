@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title> BAHREH11</title>
+    </head>
+    
+    <!--when the style of text align is center where we don't change this it write the text at the center of page-->
+    <body >
+        <!--atribute of div tag include style whiche cerain: width and height and background-color; we can also add color : to change the color of the
+        text which write in this tag-->
+        <div >
+
+            <div style="width: 100%; height: 70px; background-color: rgb(21, 247, 191);">
+                <!--we write the most important titel with the h1 tag-->
+                <h1>
+                    <!--the img tag is a tag for add a image to our page it include some atribute
+                    src is a img atribute which certain whiche image we choose and where does it saved
+                    title is another atribute whene user hold the mouse on the image the texte we write for the title will be showen to user
+                    we also have to atribute for the width and height of the image whene we just certain the width without the hight(or hight without width)
+                    the best hight for this width will be choosen atomaticlly
+                    the alt atribute is for : whene for every reason the user can't load the image the text we write in this atribute will show to user inside the image-->
+                    <img src="img\YUniArm.jpg" title="Yazd university" width="70" height="50" alt="نماد دانشگاه یزد">
+                    دانشگاه یزد
+                    <img src="img\YUniArm.jpg" title="Yazd university" width="70" height="50" alt="نماد دانشگاه یزد">
+
+                </h1>
+            </div >
+            <img src="img\YazdUni.jpg" title="Yazd university a university in Iran" 
+            width="500" height="200"
+            alt="تصویر درب گرانیتی(اصلی) دانشگاه یزد">
+                    
+            <div style="width: 520px;height: 100%; background-color:rgba(117, 240, 218, 0.799); text-align:left;">
+                <!--br tag(break) is a tag for have a enter between tow things-->
+                <br>
+
+                <!--a form tag is a tag which show a form include some input which user can fill them-->
+                <form>
+
+                    <!--the label is a part of a form which shows a text that will help the user to fill the input part of form-->
+                    <label>&nbsp;  نام : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+
+                    <!--input has 3 main atribute include: type and name and value -->
+                    <input type="text" name ="firstName" value="نام خود را وارد کنید" size="30px"><br><br>
+                    
+                    <label>&nbsp; نام خانوادگی :&nbsp;</label>
+                    <input type="text" name="lastName" value="نام خانوادگی خود را وارد کنید" size="30px"><br><br>
+
+                    <label>&nbsp; تاریخ تولد :&nbsp;&nbsp;&nbsp; </label>
+                    <input type="date" name="birthDay"  ><br><br>
+
+                    <!--radio bax is a type of input ; which the user just can choose one of them like a test-->
+                    <label>&nbsp; مرد</label>
+                    <input type="radio" name="gender" title="مرد">
+                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;زن</label>
+                    <input type="radio" name="gender" title="زن">
+                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ترجیح میدهم نگویم</label>
+                    <input type="radio" name="gender" title="ترجیح میدهم نگویم">
+                    <label> &nbsp; &nbsp; &nbsp; : جنسیت </label><br><br>
+
+                    <!--check box is a type of input which user can choose more than one of them like a multiple qusetion-->
+                    <label>&nbsp;  زبان های برنامه نویسی :</label>
+                    <input type="checkbox" name="php" title="php">
+                    <label>php</label>
+                    <input type="checkbox" name="java" title="java">
+                    <label>java</label>
+                    <input type="checkbox" name="c" title="c">
+                    <label>c</label>
+                    <input type="checkbox" name="c++" title="c++">
+                    <label>c++</label>
+                    <input type="checkbox" name="c#" title="c#">
+                    <label>c#</label>
+                    <input type="checkbox" name="..." title=" زبان های دیگر">
+                    <label>...</label><br><br>
+                            
+                    <label> &nbsp; آدرس ایمیل :&nbsp;</label>
+                    <input type="email" name="Email" value="yourEmailAddrees@sth.com" size="40px"><br><br>
+
+                    <label >&nbsp; رمز ورود :&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="password" name="password" size="30px"><br><br>
+                    <button type="submit" > ارسال </button>
+                    <button type="reset"> پاک کردن همه</button>
+                </form><br>
+            </div>
+            
+            <div style="width: 40%;height: 100%; background-color:rgba(199, 139, 222, 0.873); text-align: right;">
+                <h2> :سایت های پر کاربرد برای دانشجویان دانشگاه یزد</h2>
+                <!--a tag is tag which include a aribute : href has a link when the user click on the text will open this lind
+                the style of text-decoration certain the position of line on or under or ... line whene we choose none the line will remove 
+                it also include the atributes like: title which is like this atribute in img: whene user hold the mouse on the image the texte we write for the title will be showen to user
+                and target which show how will open the link: if we choose -blank it will be open on another tab-->
+                <a style="text-decoration:none; " 
+                href="https://yazd.ac.ir" 
+                target="_blank" title="وب سایت رسمی دانشگاه یزد"> 
+                    سایت دانشگاه یزد
+
+                    <img src = "img\YazdUni3.jpg" height="30" title="Yazd uni WebSite" alt="Yazd uni WebSite">
+                </a>
+                <br>
+                <hr>
+
+                <a style="text-decoration: none;"
+                href="https://el.yazd.ac.ir/sso/index.php"
+                target="_blank" title="سامانه مدیریت یادگیری دانشگاه یزد"> 
+                    سامیاد دانشگاه یزد 
+
+                    <img src = "img\Samyad.jpg"  height="30" alt="Yazd Uni Samyad">
+                </a>
+                <br>
+                <hr>
+
+                <a style="text-decoration: none;" 
+                href="https://golestan.yazd.ac.ir/forms/authenticateuser/main.htm" 
+                target="_blank" title="سیستم جامع دانشگاهی گلستان"> 
+                    گلستان دانشگاه یزد
+
+                    <img src = "img\Golestan.jpg" height="30" alt="Yazd Uni Golestan">
+                </a>
+            </div>
+            <br>
+            <div style="width: 40%; background-color:rgb(212, 195, 246)">
+            <br>
+
+            <!--the table tag which will be make a table in our page it include the atribute border which drow lines beside the tabel
+            and we can change the color of this line with bodercolor atribute-->
+            <table border="2" bordercolor="blue">
+                <!--the caption atribute shows that tabel is about what-->
+                <caption>برخی از اعضای هیئت علمی دانشکده مهندسی کامپیوتر</caption>
+                <!--tr tag will add a row to our tabel-->
+                <tr  style="font-size:15px ;" height ="40">
+                    <!--td tag will add a column to our tabel-->
+                    <th width="37%" >نام </th>
+                    <th width="20%">عنوان </th>
+                    <th width="200px">ایمیل</th>
+                </tr>
+                <tr style="border:3px rgb(7, 136, 71) solid; background-color: rgb(194, 172, 238);" height="40" >
+                    <!--td tag will add a cell to our tabel -->
+                    <td>
+                        <a href="https://yazd.ac.ir/people/zareh" title="اطلاعات بیشتر درباره دکتر زارع"
+                        target="_blank" style="text-decoration: none">
+                            علی محمد زارع بیدکی
+                        </a>
+                    </td>
+                    <td>دانشیار</td>
+                    <td>alizareh [at] yazd.ac.ir</td>
+                </tr>
+                <tr style="border: 2px rgb(57, 203, 83) solid; background-color: rgba(219, 205, 249, 0.87);" height="40" >
+                    <td>
+                        <a href="https://yazd.ac.ir/people/nikzar" title="اطلاعات بیشتر درباره دکتر نیک‌زر"
+                        target="_blank" style="text-decoration: none">
+                            مجید نیک‌زر
+                        </a>
+                    </td>
+                    <td>مربی</td>
+                    <td>mnikzar [at] yazd.ac.ir</td>
+                </tr>
+                <tr style="border:3px rgb(7, 136, 71) solid; background-color: rgb(194, 172, 238);" height="40" >
+                    <td>
+                        <a href="https://yazd.ac.ir/people/yazdian" title="اطلاعات بیشتر درباره دکتر یزدیان"
+                        target="_blank" style="text-decoration: none">
+                        مهدی یزدیان دهکردی
+                        </a>
+                    </td>
+                    <td>استادیار</td>
+                    <td>yazdian [at] yazd.ac.ir</td>
+                </tr>
+                <tr style="border: 2px rgb(57, 203, 83) solid; background-color: rgba(219, 205, 249, 0.87);" height="40" >
+                    <td>
+                        <a href="https://yazd.ac.ir/people/pajoohan" title="اطلاعات بیشتر درباره دکتر پژوهان"
+                        target="_blank" style="text-decoration: none">
+                            محمد‌رضا پژوهان
+                        </a>
+                    </td>
+                    <td>استادیار</td>
+                    <td>pajoohan [at] yazd.ac.ir</td>
+                </tr>
+                <tr style="border:3px rgb(7, 136, 71) solid; background-color: rgb(194, 172, 238);" height="40" >
+                    <td>
+                        <a href="https://yazd.ac.ir/people/matinkhah" title="اطلاعات بیشتر درباره دکتر متین‌خواه"
+                        target="_blank" style="text-decoration: none">
+                            سید مجتبی متین‌خواه
+                        </a>
+                    </td>
+                    <td>استادیار</td>
+                    <td>matinkhah [at] yazd.ac.ir</td>
+                </tr>
+                <tr style="border: 2px rgb(57, 203, 83) solid; background-color: rgba(219, 205, 249, 0.87);" height="40" >
+                    <td>
+                        <a href="https://yazd.ac.ir/people/chahooki" title="اطلاعات بیشتر درباره دکتر زارع چاهوکی"
+                        target="_blank" style="text-decoration: none">
+                            محمد‌علی زارع چاهوکی 
+                        </a>
+                    </td>
+                    <td>دانشیار</td>
+                    <td>chahooki [at] yazd.ac.ir</td>
+                </tr>
+
+            </table>
+            <br>
+            </div>
+                <div style="width: 40%; background-color:rgba(59, 190, 107, 0.348)">
+                <div style= "color: rgb(122, 247, 172); width:100%; background-color:rgb(238, 0, 255) ; text-align: center;">
+                    <h3>چارت درسی مهندسی کامپیوتر چهارترم اول (مشترک برای همه ی گرایش ها)</h3>
+                </div>
+                <!-- ul tag make a list in our page 
+                ther are to kind of list-> ol: order list and ul: unorder list-->
+                <ul >
+                    <div style="width: 70%; height: 100%; background-color: rgb(229, 207, 238);">
+                        <!--we use li tag to add list items -->
+                        <li style="color:rgb(255, 0, 250)">
+                            ترم یک
+                            <ul style="color:rgb(101, 5, 80)"> 
+                                <li>ریاضی 1</li>  <li>فیزیک 1</li>  <li>زبان خارجی</li>
+                                <li>مبانی کامپیوتر و برنامه ریزی</li>  <li>ریاضیات گسسته</li> <li>یکی از دروس معارف</li>
+                            </ul>
+                        </li>
+                    </div>
+                    <hr>
+                    <div style="width: 70%; height: 100%; background-color: rgb(244, 199, 232);">
+                        <li style="color:rgb(255, 0, 150)">
+                            ترم دو
+                            <ul style="color:rgb(101, 5, 80)">
+                                <li>ریاضی 2</li>  <li>فیزیک 2</li>  <li>زبان فارسی</li>  <li>برنامه سازی پیشرفته</li>
+                                <li>کارگاه کامپیوتر</li>  <li>مدار منطقی</li>  <li>یکی از دروس معارف</li>
+                        </ul>
+                        </li>
+                    </div>
+                    <hr>
+                    <div style="width: 70%; height: 100%; background-color: rgb(229, 207, 238);">
+                        <li style="color:rgb(255, 0, 76)">
+                            ترم سه
+                            <ul style="color:rgb(101, 5, 80)">
+                                <li> آمار و احتمال مهندسی</li>  <li>آز فیزیک 2</li>  <li> معادلات دیفرانسیل</li>  <li>ساختمان داده</li>
+                                <li>زبان تخصصی</li>  <li>معماری کامپیوتر</li>  <li>تربیت بدنی</li>  <li>یکی از دروس معارف</li>
+                        </ul>
+                        </li>
+                    </div>
+                    <hr>
+                    <div style="width: 70%; height: 100%; background-color: rgb(244, 199, 232);">
+                        <li style="color:rgb(255, 0, 0)">
+                            ترم چهار
+                            <ul style="color:rgb(101, 5, 80)">
+                                <li> جبر خطی</li>  <li> مدار الکتریکی </li>  <li>طراحی الگوریتم</li>  <li>نظریه زبان ها و ماشین ها</li>
+                                <li> طراحی کامپیوتری وسیستم های دیجیتال</li>  <li>آز مدار منطقی و  معماری کامپیوتر</li>  <li>یکی از دروس معارف</li>
+                        </ul>
+                        </li>
+                    </div>
+                </ul><br>
+            </div>
+            <a href="#" style="text-decoration:none" title="author Name">
+                <span style="color: rgb(230, 20, 55); text-decoration: none;">Bahareh</span>
+                <span style="color: rgb(164, 5, 133); text-decoration: none">Dehghani</span>
+            </a>
+            <br>
+            <a href="index10.html" 
+            style="color: rgb(7, 240, 116); text-decoration: none;"
+            title="صفحه قبلی با مطالب مشابه و قابلیت های کمتر" >
+                <<< last index  &nbsp;&nbsp;&nbsp;
+            </a>
+            <!--whene we whant to show someThing as a link but we don't like it links to another page we will equals href atribute #-->
+            <a href="#" style="color: rgb(5, 133, 5); text-decoration: none;" 
+            title=" نسخه به روز صفحه فعلا در دسترس نیست"> 
+                next index >>>>
+            </a>
+        
+        </div>
+    </body>
+</html>
